@@ -22,7 +22,7 @@ class URLValidationStrategy < ValidationStrategy
   end
 end
 
-class ValidationStrategy < ValidationStrategy
+class EmailValidationStrategy < ValidationStrategy
   def initialize(separator)
     @separator = separator
   end
